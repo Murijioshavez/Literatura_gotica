@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar Allan Poe - Biblioteca de Literatura Gótica</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url("ramas-fondo.jpg");
+            background-size: cover;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255, 255, 255, .75);
+        }
+
+        .container {
+            padding: 15px;
+            max-width: 800px;
+        }
+
+        .author-section {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .author-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .book-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .book-list li {
+            background-color: #333;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .book-list img {
+            max-width: 100px;
+            margin-right: 10px;
+        }
+
+        .book-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .book-item img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+
+        .dani {
+            display: block;
+            width: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700px;
+            background: #433D8B;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Menú de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="inicio.html">Biblioteca Gótica</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="Poe.html">Edgar Allan Poe</a></li>
+                <li class="nav-item"><a class="nav-link" href="MaryShelley.html">Mary Shelley</a></li>
+                <li class="nav-item"><a class="nav-link" href="BramStoker.html">Bram Stoker</a></li>
+                <li class="nav-item"><a class="nav-link" href="HoraceWalpole.html">Horace Walpole</a></li>
+                <li class="nav-item"><a class="nav-link" href="AnnRadcliffe.html">Ann Radcliffe</a></li>
+                <li class="nav-item"><a class="nav-link" href="RobertLouisStevenson.html">Robert Louis Stevenson</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="author-section">
+            <div class="author-name">Horace Walpole</div>
+            <ul class="book-list">
+                <li class="book-item">
+                    <img src="castillo.jpg" alt="">
+                    <div>
+                        <strong>El castillo de Otranto- Horace Walpole (1764) </strong><br>
+                        <p>Obra precursora del terror gótico, ambientada en la Alta Edad Media, El castillo de Otranto
+                            narra la historia de la maldición que recae sobre
+                            la familia de Manfred, el hombre que ha usurpado la fortaleza que da nombre a este libro.
+                        </p>
+                    </div>
+                    <a href="https://idartesencasa.gov.co/sites/default/files/libros_pdf/113.%20El%20Castillo%20de%20Otranto.pdf"
+                        class="dani link-underline-light btn-sm" target="_blank ">Leer aqui!</a>
+                </li>
+                <li class="book-item">
+                    <img src="Hieroglyphic Tales.jpg" alt="">
+                    <div>
+                        <strong>Hieroglyphic Tales (1785)</strong><br>
+                        <p>UEsta colección de cuentos cortos de Walpole también muestra su interés por lo sobrenatural y
+                            lo misterioso. Cada cuento presenta elementos
+                            fantásticos y enigmáticos que capturan la imaginación del lector, manteniendo el tono gótico
+                            que caracteriza su obra.</p>
+                    </div>
+                    <a href="https://books.google.rw/books?id=-JhRDwAAQBAJ&printsec=frontcover#v=onepage&q&f=false"
+                        class="dani link-underline-light btn-sm" target="_blank ">Leer aqui!</a>
+                </li>
+                <li class="book-item">
+                    <img src="misterious.jpg" alt="">
+                    <div>
+                        <strong>The Mysterious Mother (1768) </strong><br>
+                        <p>
+                            Aunque no es estrictamente un cuento corto, esta obra teatral de Walpole es notable por su
+                            tratamiento de temas tabúes y su atmósfera sombría. La historia se centra en el incesto y el
+                            secreto, elementos que son comunes en la literatura gótica de la época.</p>
+                    </div>
+                    <a href="https://lubellamiadotcom.wordpress.com/wp-content/uploads/2016/10/los-misterios-de-udolfo-pdf.pdf"
+                        class="dani link-underline-light btn-sm" target="_blank ">Leer aqui!</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

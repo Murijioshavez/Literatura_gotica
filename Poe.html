@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar Allan Poe - Biblioteca de Literatura Gótica</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url("ramas-fondo.jpg");
+            background-size: cover;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: rgba(255, 255, 255, .75);
+        }
+
+        .container {
+            padding: 15px;
+            max-width: 800px;
+        }
+
+        .author-section {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+
+        }
+
+        .author-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .book-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .book-list li {
+            background-color: #333;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .book-list img {
+            max-width: 170px;
+            margin-right: 10px;
+        }
+
+        .book-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .book-item img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+
+        .dani {
+            display: block;
+            width: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 700px;
+            background: #433D8B;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Menú de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="inicio.html">Biblioteca Gótica</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="Poe.html">Edgar Allan Poe</a></li>
+                <li class="nav-item"><a class="nav-link" href="MaryShelley.html">Mary Shelley</a></li>
+                <li class="nav-item"><a class="nav-link" href="BramStoker.html">Bram Stoker</a></li>
+                <li class="nav-item"><a class="nav-link" href="HoraceWalpole.html">Horace Walpole</a></li>
+                <li class="nav-item"><a class="nav-link" href="AnnRadcliffe.html">Ann Radcliffe</a></li>
+                <li class="nav-item"><a class="nav-link" href="RobertLouisStevenson.html">Robert Louis Stevenson</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="author-section">
+            <div class="author-name">Edgar Allan Poe</div>
+            <ul class="book-list">
+                <li class="book-item">
+                    <img src="cuervo.jpeg" alt="El Cuervo">
+                    <div>
+                        <strong>El Cuervo</strong><br>
+                        <p>Un poema narrativo sobre un hombre que lamenta la pérdida de su amada Lenore y es visitado
+                            por un cuervo que solo puede decir "Nunca más".</p>
+                    </div>
+                    <a href="https://biblioteca.org.ar/libros/1731.pdf" class="dani link-underline-light btn-sm"
+                        target="_blank ">Lee aqui!</a>
+                </li>
+                <li class="book-item">
+                    <img src="corazon delator.jpg" alt="El Corazón Delator">
+                    <div>
+                        <strong>El Corazón Delator</strong><br>
+                        <p>Un cuento que explora la culpa y la paranoia de un hombre que asesina a un anciano y es
+                            consumido por la idea de que puede escuchar el latido del corazón de su víctima.</p>
+                    </div>
+                    <a href="https://www.ucm.es/data/cont/docs/119-2014-02-19-Poe.ElCorazonDelator.pdf"
+                        class="dani link-underline-light btn-sm" target="_blank ">Lee aqui!</a>
+                </li>
+                <li class="book-item">
+                    <img src="casa usher.jpg" alt="La Caída de la Casa Usher">
+                    <div>
+                        <strong>La Caída de la Casa Usher</strong><br>
+                        <p>Una historia de terror sobre la visita de un hombre a la casa de su amigo Roderick Usher, que
+                            está siendo consumido por una enfermedad y la decadencia de su hogar.</p>
+                    </div>
+                    <a href="https://bibliotecas.unileon.es/tULEctura/files/2014/02/La-ca%C3%ADda-de-la-Casa-Usher.pdf"
+                        class="dani link-underline-light btn-sm" target="_blank ">Lee aqui!</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
